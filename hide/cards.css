@@ -1,0 +1,85 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 250px;
+  flex-grow: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 80px 40px;
+  box-sizing: border-box;
+}
+
+.banner-left,
+.banner-right {
+  flex: 1 1 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.banner-left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner-left p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.banner-left .btn-primary {
+  padding: 12px 24px;
+  background-color: #7b61ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-left .btn-primary:hover {
+  background-color: #5947d6;
+}
+
+.banner-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
